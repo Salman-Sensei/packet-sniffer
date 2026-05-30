@@ -1,6 +1,6 @@
-# 📡 NETSCOPE — Wireshark-like Network Packet Analyzer
+# 📡 NETSCOPE  ( Wireshark-like Network Packet Analyzer )
 
-<div align="center">
+<d )iv align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-41CD52?style=for-the-badge&logo=qt&logoColor=white)
@@ -58,7 +58,14 @@ Captures, decodes, and visualizes live network traffic — just like Wireshark, 
 │   ▼ TCP  Src: 54321  Dst: 443  [SYN-ACK]
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
-
+### Main Dashboard ( Idle )
+![NETSCOPE Main Interface](assets/screenshots/main-dashboard.png)
+### Main Dashboard ( Live Capturing )
+![NETSCOPE Main Interface](assets/screenshots/live-capture.png)
+### Packet Capture data File 
+![NETSCOPE Main Interface](assets/screenshots/packet-details.png)
+### Statistics Panel
+![NETSCOPE Main Interface](assets/screenshots/statistics-panel.png)
 ---
 
 ## 🚀 Quick Start
@@ -91,10 +98,10 @@ pip install -r requirements.txt
 ### Running
 
 ```bash
-# Linux / Mac — requires root for raw socket access
+# Linux / Mac : requires root for raw socket access
 sudo python main.py
 
-# Windows — run your Terminal as Administrator, then:
+# Windows : run your Terminal as Administrator, then:
 python main.py
 ```
 
@@ -104,7 +111,7 @@ python main.py
 
 ---
 
-## 🐧 Linux — Grant Permissions Without sudo (Optional)
+## 🐧 Linux  Grant Permissions Without sudo (Optional)
 
 If you don't want to run the whole app as root:
 
@@ -118,7 +125,7 @@ python main.py
 
 ---
 
-## 🪟 Windows — Install Npcap
+## 🪟 Windows  Install Npcap
 
 Windows requires **Npcap** for packet capture:
 
@@ -305,18 +312,18 @@ Unauthorized packet capture may be illegal in your jurisdiction.
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License  see [LICENSE](LICENSE) for details.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Inspired by [Wireshark](https://www.wireshark.org/) — the gold standard
+- Inspired by [Wireshark](https://www.wireshark.org/)  the gold standard
 - Packet capture powered by [scapy](https://scapy.net/)
 - GUI built with [PyQt5](https://www.riverbankcomputing.com/software/pyqt/)
 
 ---
 
 <div align="center">
-Built with ❤️ by <strong>Salman-Sensei</strong>
+Built with ❤️ by <strong>Salman-Khan</strong>
 </div>
