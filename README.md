@@ -1,6 +1,6 @@
 # 📡 NETSCOPE  ( Wireshark-like Network Packet Analyzer )
 
-<d )iv align="center">
+
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-41CD52?style=for-the-badge&logo=qt&logoColor=white)
@@ -9,7 +9,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 **A professional-grade network packet analyzer built with Python + PyQt5 + scapy.**
-Captures, decodes, and visualizes live network traffic — just like Wireshark, but yours.
+Captures, decodes, and visualizes live network traffic ( just like Wireshark, but yours. )
 
 </div>
 
